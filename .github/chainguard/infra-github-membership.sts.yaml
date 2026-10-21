@@ -1,0 +1,14 @@
+issuer: https://token.actions.githubusercontent.com
+subject: repo:bloomsco/infra:ref:refs/heads/main
+
+claim_pattern:
+  repository_id: "965265515"
+  repository_owner_id: "165200476"
+  event_name: push
+  workflow_ref: 'bloomsco/infra/\.github/workflows/cd\.yml@refs/heads/main'
+
+permissions:
+  members: write
+
+repositories:
+  - infra
